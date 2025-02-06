@@ -110,7 +110,7 @@ public class EmployeeService {
 
             StringResponse stringResponse = gson.fromJson(root, StringResponse.class);
 
-            String message = stringResponse.getStatus();
+            String message = employeeInput.getName() + " " + stringResponse.getStatus();
 
             return Optional.of(message);
         } catch (Exception e) {

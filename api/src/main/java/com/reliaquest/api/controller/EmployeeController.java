@@ -78,7 +78,7 @@ public class EmployeeController {
     /**
      * Delete employee by id
      * @param id - the id of the employee
-     * @return - the response string ("Successfully processed request")
+     * @return - the response string (name of employee Successfully processed request)
      *
      * Using RequestParam - 405 method not allowed with a PathParam
      *
